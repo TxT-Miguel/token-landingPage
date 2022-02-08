@@ -6,6 +6,8 @@ import logo from './logo.svg';
 import Navbar from './components/Navbar';
 import AboutMoose from './components/AboutMoose';
 import Team from './components/Team';
+import Resources from './components/Resources';
+import ContactUs from './components/ContactUs';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Navbar />
       <AboutMoose />
       <Team />
+      <Resources />
+      <ContactUs />
     </div>
   );
 }
